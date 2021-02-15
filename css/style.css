@@ -1,0 +1,305 @@
+/*Setting Body Area*/
+
+body {
+
+	background-color: #aaaa55;
+	font-family: arial;
+	padding: 0;
+	margin: 0;
+}
+
+/*id wrapper*/
+
+#wrapper {
+
+	width: 1000px;  /*px adalah pixel*/
+	padding: 20px;
+	background-color: #ffffff;
+	min-height: 300px;
+	border-radius: 10px;
+	margin: 40px auto;
+}
+
+/*header*/
+
+header {
+
+	font-size: 48px;
+    font-weight: bold;
+    color: #ff1a1a;
+    text-shadow: 2px 2px gray;
+
+}
+
+/*nav*/
+
+nav {
+
+	background-color: #EEEEEE;
+	border: solid thin #EEEEEE;
+	color: #F60;
+	height: 60px;
+	margin: 10px 0;
+}
+
+nav ul {
+
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+nav ul li {
+
+	padding: 0;
+	height: 60px;
+	float: left;
+	display: inline-block;
+	margin: 0;
+}
+
+nav ul li a {
+
+	padding: 20px;
+	height: 20px;
+	color: #f60;
+	font-weight: bold;
+	float: left;
+	text-align: justify;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	background-color: #f60;
+	color: #fff;
+}
+
+/*slider*/
+
+#slider {
+
+	min-height: 300px;
+	background-color: #ff80bf;
+	margin-bottom: 10px;
+
+}
+
+#slider img {
+
+	width: 100%;
+	height: auto;
+}
+
+
+/*kotak*/
+
+.kotak {
+
+	min-height: 300px;
+	padding: 10px 0;
+	margin-bottom: 10px;
+
+}
+
+/*berita*/
+
+.berita {
+
+	width: 470px;
+	min-height: 300px;
+	background-color: #99ff99;
+	float: left;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.berita img {
+
+	width: 100%;
+	height: auto;
+}
+
+
+.berita h2{
+
+	border-bottom: solid thin #EEE;
+	color: #f60;
+}
+
+.berita p {
+
+	text-align: justify;
+}
+
+/*alamat*/
+
+.alamat {
+
+	width: 470px;
+	min-height: 300px;
+	background-color: #99ff99;
+	float: right;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.alamat iframe {
+
+	width: 100%;
+	max-height: 360px;
+}
+
+.alamat h2{
+
+	border-bottom: solid thin #EEE;
+	color: #f60;
+}
+
+.alamat p {
+
+	text-align: justify;
+}
+
+/*class logo*/
+
+.logo {
+
+	width: 400px;
+	min-height: 400px;
+	padding: 10px;
+	background-color: #f5f5f5;
+	border: solid 2px #eee;
+	border-radius: 5px;
+	float: left;
+}
+
+.logo img {
+
+	width: 100%;
+	height: auto;
+}
+
+.logo iframe {
+
+	width: 100%;
+	min-height: 400px;
+}
+
+/*class profile */
+
+.profil {
+
+	width: 530px;
+	min-height: 400px;
+	border: solid 2px #eee;
+	border-radius: 5px;
+	padding: 10px;
+	float: right;
+}
+
+.profil h1 {
+
+	color: #ff8080;
+	border-bottom: solid thin #EEEEEE;
+	margin-top: 0;
+	font-size: 28px;
+
+}
+
+.profil p{
+
+	text-align: justify;
+	color: #666;
+
+}
+
+.profil img {
+
+	width: 518px;
+	height: auto;
+	padding: 5px;
+	border: solid 1px #f60;
+	background-color: #ffc;
+	border-radius: 5px;
+
+
+}
+
+
+/*produk*/
+
+.produk {
+
+	width: 250px;
+	margin-bottom: 10px;
+	float: left;
+	height: 300px;
+	text-align: center;
+}
+
+.produk .gambar {
+
+	width: 240px;
+	height:240px;
+	margin-bottom: 10px; 
+	padding: 5px;
+}
+
+.produk .gambar img {
+
+	width: auto;
+	max-width: 228px;
+	height: auto;
+	max-height: 228px;
+	padding:5px;
+	border: solid 1px #eee;
+	background-color: #f5f5f5;
+	border-radius:5px;  
+}
+
+.produk .nama {
+
+	width: 240px;
+	height: 50px;
+}
+
+.produk .nama h2 {
+
+	margin: 0;
+	font-size: 18px;
+}
+
+.produk .nama p {
+
+	margin: 0;
+	color: #900;
+}
+
+.produk .nama a {
+
+	text-decoration: none;
+	color: #ff8000;
+}
+
+.produk .nama a:hover {
+	color: #b30000;
+}
+
+/*clearfix*/
+
+.clearfix {
+	clear: both;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+/*footer*/
+
+footer {
+
+	text-align: center;
+	color: #4d4d33;
+	padding: 10px 20 px;
+	border-top: solid thin #EEE;
+}

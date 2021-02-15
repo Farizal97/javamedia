@@ -1,0 +1,112 @@
+/*tag global setting untuk semua device*/
+/*tag body*/
+body {
+
+	background-color: gray;
+	font-family: arial;
+}
+
+/*tag global setting section*/
+section {
+
+	min-height: 300px;
+}
+
+/* tag global setting */
+.merah, .orange, .ungu {
+
+	min-height: 300px;
+	padding: 20px 2%;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+#wrapper {
+	background-color: #fff;
+	padding: 20px 2%;
+	margin: 30px auto;
+}
+
+.merah {
+	background-color: red;
+}
+
+.orange {
+	background-color: orange;
+}
+
+.ungu {
+	background-color: purple;
+}
+
+.clearfix {
+	clear: both;
+}
+
+/*satart media query CSS3*/
+
+/*Mobile Device 160px s/d 480px*/
+@media only screen and (min-width: 160px) and (max-width: 480px) {
+	section {
+		width: 100%;
+		background-color: red;
+	}
+	#wrapper {
+		width: 96%;
+	}
+	.merah {
+		width: 96%;
+	}
+	.orange {
+		width: 96%;
+	}
+	.ungu {
+		width: 96%;
+	}
+}
+
+/*Tablet Device 481px s/d 780px*/
+@media only screen and (min-width: 481px) and (max-width: 780px) {
+	section {
+		width: 80%;
+		background-color: green;
+	}
+	#wrapper {
+		width: 90%;
+	}
+	.merah {
+		width: 96%;
+	}
+	.orange {
+		width: 45%;
+		float: left;
+	}
+	.ungu {
+		width: 45%;
+		float: right;
+	}
+}
+
+/*Desktop Device 781px s/d 2400px*/
+@media only screen and (min-width: 781px) and (max-width: 2400px) {
+	section {
+		width: 60%;
+		background-color: yellow;
+	}
+	#wrapper {
+		width: 70%;
+	}
+	.merah {
+		width: 28%;
+		float: left;
+		margin-right: 2%;
+	}
+	.orange {
+		width: 28%;
+		float: left;
+	}
+	.ungu {
+		width: 28%;
+		float: right;
+	}
+}
